@@ -1,16 +1,16 @@
 
-let userName = prompt("What is your name?");
-let choices = ["rock", "paper", "scissors"]
-let userResponse = null         
+// let userName = prompt("What is your name?");
+// let choices = ["rock", "paper", "scissors"]
+// let userResponse = null         
 
-while (!choices.includes(userResponse)) {
-    userResponse =  prompt("Rock, Paper, or Scissors?").toLowerCase().trim()
-     // true or false
-}
+// while (!choices.includes(userResponse)) {
+//     userResponse =  prompt("Rock, Paper, or Scissors?").toLowerCase().trim()
+//      // true or false
+// }
 
-let computerResponse = Math.round(Math.random() * (2-0) + 0); // 0-2
+// let computerResponse = Math.round(Math.random() * (2-0) + 0); // 0-2
 
-compareChoices(userName, userResponse, computerResponse) 
+// compareChoices(userName, userResponse, computerResponse) 
 
 // For 
 
