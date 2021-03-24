@@ -11,11 +11,12 @@ const userResponse = urlQueryString.get('choice')
 
 let computerResponse = Math.round(Math.random() * (2-0) + 0); // 0-2
 
-var gameResults = document.getElementById("gameresults")
 var gameImage = document.getElementById("choiceimage")
+var gameResults = document.getElementById("gameresults")
 
 
-compareChoices("Phil", userResponse, computerResponse) 
+
+compareChoices(window.localStorage.getItem("name"), userResponse, computerResponse) 
 
 // Get the element
 
